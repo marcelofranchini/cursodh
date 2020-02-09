@@ -1,0 +1,72 @@
+﻿$git init -> na pasta que deseja salvar
+pwd -> mostra o local
+
+$git config user.name "Marcelo Franchini" -> configura o nome do usuario 
+$git config user.name -> verifica 
+
+$git config user.email "marcelo_franchini@hotmail.com" -> configura o email cadastrado no github
+$git config user.email -> verifica 
+
+$git config --global user.email/ user.name -> subs para configurar globalmente 
+
+$git remote add origin https://github.com/marcelofranchini/curso -> add o repositorio do github copiar url
+
+$ git remote -v -> verifica
+
+----------------------------------------------------------------------------
+commit
+
+$ git commit -m "menssagem qualquer"
+$ git status -> mostra a situacao dos arquivos
+$ git log -> mostra o commit
+
+
+
+------------------------------
+depois de tudo commitado deve-se subir para o github
+
+$git push origin master   -> envia os arquivos pra nuvem
+
+toda vez que criar/modificar um arquivo novo na pasta deve-se add ele e fazer o commit depois
+$ git add teste.js   ou   git add. para add todos os arquivos melhor git add --all
+$ git commit -m "Versão 1.0"
+
+
+-----------------------------------------
+$ git clone urlClone -> baixa os arquivos do master pela 1 vez
+$ git pull origin master -> atualiza se já tiver o clone
+
+-------------------------------------------
+
+ls -lha
+ls -R
+mkdir "pasta" -> cria past
+mv ori/novo-> move ou renomeia  arquivos
+
+touch -> criar arquivos ---- > com saida tbm cria
+$ $PATH > arquivo.txt -> envia para o arquivo
+
+rm -> apaga arquivos 
+rm -r -> remove a pasta
+rm z* -> todos os arquivos com z
+
+ls(ou qualquer outro) --help
+
+code .  abre na pasta atual.
+
+
+
+wordpad.cc/s05 da turma.
+
+branches  linha paralela
+
+git checkout c2 -> move para o commit 2(poderia ser qualquer uma)
+git checkout master
+
+git branch bugfix -> cria uma branch em c2 chamada bug
+git checkout bugfix 
+
+git commit -m "qualquer coisa" -> c3 continua a master e cria uma nova ramificação c4 
+
+juntar as branches - git murthi
+
