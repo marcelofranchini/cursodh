@@ -1,0 +1,16 @@
+p{
+    color:white;
+    background-color: teal;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin-left: 0px;
+    margin-top: 40px;
+}
+
+button.btn.btn-primary{
+    background-color: teal;
+    border-color: white;
+}

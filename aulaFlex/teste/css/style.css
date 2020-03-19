@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    flex-wrap: wrap; /* quebra quando o tamanho limite passar */
+    height: 380px;
+    background-color: pink ;
+    flex-direction: column;  /* mudou o eixo principal do pc para coluna*/
+    justify-content: space-around; /* alinhar horizontal ou principal... se for cel inverte */
+    align-items: center; /* alinhar vertical --- muda pra cel ou principal*/
+}
+
+.box{
+    background-color: white;
+    width: 300px;
+    display: flex;
+    justify-content: center; /* alinhar horizontal */
+    align-items: center; /* alinhar vertical */
+    
+}
