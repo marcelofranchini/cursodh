@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exemplo Bootstrap</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">  <!-- poderia ser exter http.. -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"><!-- poderia ser exter http.. -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -51,13 +51,132 @@
             </div>
         </div>
 
-
+        <a href="/site-modelo/Mural" class="m-cardA__header" tabindex="0">
+          <div class="m-cardA__header__title">
+              <h1 class="m-cardA__header__title__text">Mural dos condôminos</h1>
+          </div>
+          <div class="m-cardA__header__corner">
+              <svg class="m-cardA__header__corner__icon">
+                  <use xlink:href="#m-icon__megaphone"></use>
+              </svg>
+          </div>
+      </a>
 
 
 
     </div>
 
-   
+    <div class="l-gridFlex__colXS-12 l-gridFlex__colSM-6 l-gridFlex__colMD-4 l-homeCards__mural">
+
+
+      <article class="m-cardA t-mural s-marginResetBottom ng-scope" ng-controller="muralCtrl">
+          <a href="/site-modelo/Mural" class="m-cardA__header" tabindex="0">
+              <div class="m-cardA__header__title">
+                  <h1 class="m-cardA__header__title__text">Mural dos condôminos</h1>
+              </div>
+              <div class="m-cardA__header__corner">
+                  <svg class="m-cardA__header__corner__icon">
+                      <use xlink:href="#m-icon__megaphone"></use>
+                  </svg>
+              </div>
+          </a>
+      
+          <article class="m-cardA__body--bgColorB m-cardA__body--growEmptyState">
+              <section class="m-loading ng-hide" ng-hide="content.done">
+                  <div class="m-loading__spinner"></div>
+                  <p class="m-loading__text">carregando</p>
+              </section>
+      
+              <!-- ngIf: content.empty -->
+      
+              <div class="m-blockList">
+                  <!-- ngRepeat: item in content.data | limitTo : limit --><section class="m-blockList__divider ng-scope" ng-repeat="item in content.data | limitTo : limit">
+                      <a class="m-blockList__item" ng-href="/site-modelo/Mural/Visualizar/23" ontouchstart="" href="/site-modelo/Mural/Visualizar/23">
+                          <div class="m-blockList__item__info">
+                              <div class="m-blockList__item__info__type ng-binding">Achados e perdidos</div>
+                              <time class="m-blockList__item__info__time s-pull-right ng-binding">6 meses atrás</time>
+                          </div>
+                          <div class="m-blockList__item__wrapAvatar">
+                              <div class="m-blockList__item__wrapAvatar__img">
+                                  <!-- ngIf: item.FotoPequena --><img class="m-blockList__item__photo ng-scope" ng-if="item.FotoPequena" ng-src="https://meucondominiohomologdata.s3.amazonaws.com/67/fotoperfil/f073e0bd-f9fb-4c4f-9631-9b51b46d40fa.jpg" src="https://meucondominiohomologdata.s3.amazonaws.com/67/fotoperfil/f073e0bd-f9fb-4c4f-9631-9b51b46d40fa.jpg"><!-- end ngIf: item.FotoPequena -->
+                                  <!-- ngIf: !item.FotoPequena -->
+                              </div>
+                              <div class="m-blockList__item__wrapAvatar__info">
+                                  <div class="m-blockList__item__info__author ng-binding">Thiago Ferreira Costa postou</div>
+                                  <h1 class="m-blockList__item__title--ellipsis ng-binding">
+                                      Celular achado
+                                  </h1>
+                              </div>
+                          </div>
+                          <!-- ngIf: item.Imagens.length --><div class="m-blockList__item__preview ng-scope" ng-if="item.Imagens.length">
+                              <!-- ngRepeat: foto in item.Imagens | limitTo:3 --><div aria-role="foto" class="m-blockList__item__preview__image ng-scope" ng-repeat="foto in item.Imagens | limitTo:3" style="background-image: url('https://meucondominiohomologdata.s3.amazonaws.com/67/mural/50526681-83d3-433a-8a6b-ac4ae8e637be.jpg')"></div><!-- end ngRepeat: foto in item.Imagens | limitTo:3 -->
+                          </div><!-- end ngIf: item.Imagens.length -->
+                      </a>
+                  </section><!-- end ngRepeat: item in content.data | limitTo : limit --><section class="m-blockList__divider ng-scope" ng-repeat="item in content.data | limitTo : limit">
+                      <a class="m-blockList__item" ng-href="/site-modelo/Mural/Visualizar/22" ontouchstart="" href="/site-modelo/Mural/Visualizar/22">
+                          <div class="m-blockList__item__info">
+                              <div class="m-blockList__item__info__type ng-binding">Classificados</div>
+                              <time class="m-blockList__item__info__time s-pull-right ng-binding">6 meses atrás</time>
+                          </div>
+                          <div class="m-blockList__item__wrapAvatar">
+                              <div class="m-blockList__item__wrapAvatar__img">
+                                  <!-- ngIf: item.FotoPequena --><img class="m-blockList__item__photo ng-scope" ng-if="item.FotoPequena" ng-src="https://meucondominiohomologdata.s3.amazonaws.com/67/fotoperfil/3e2f4f5b-2d57-441e-a26e-43ebae7fdcbb.jpg" src="https://meucondominiohomologdata.s3.amazonaws.com/67/fotoperfil/3e2f4f5b-2d57-441e-a26e-43ebae7fdcbb.jpg"><!-- end ngIf: item.FotoPequena -->
+                                  <!-- ngIf: !item.FotoPequena -->
+                              </div>
+                              <div class="m-blockList__item__wrapAvatar__info">
+                                  <div class="m-blockList__item__info__author ng-binding">Tatiane Ferreira Costa postou</div>
+                                  <h1 class="m-blockList__item__title--ellipsis ng-binding">
+                                      Vendo bicicleta
+                                  </h1>
+                              </div>
+                          </div>
+                          <!-- ngIf: item.Imagens.length --><div class="m-blockList__item__preview ng-scope" ng-if="item.Imagens.length">
+                              <!-- ngRepeat: foto in item.Imagens | limitTo:3 --><div aria-role="foto" class="m-blockList__item__preview__image ng-scope" ng-repeat="foto in item.Imagens | limitTo:3" style="background-image: url('https://meucondominiohomologdata.s3.amazonaws.com/67/mural/52c81503-e065-496d-9275-c6885b8e5544.jpeg')"></div><!-- end ngRepeat: foto in item.Imagens | limitTo:3 -->
+                          </div><!-- end ngIf: item.Imagens.length -->
+                      </a>
+                  </section><!-- end ngRepeat: item in content.data | limitTo : limit --><section class="m-blockList__divider ng-scope" ng-repeat="item in content.data | limitTo : limit">
+                      <a class="m-blockList__item" ng-href="/site-modelo/Mural/Visualizar/24" ontouchstart="" href="/site-modelo/Mural/Visualizar/24">
+                          <div class="m-blockList__item__info">
+                              <div class="m-blockList__item__info__type ng-binding">Eu recomendo</div>
+                              <time class="m-blockList__item__info__time s-pull-right ng-binding">6 meses atrás</time>
+                          </div>
+                          <div class="m-blockList__item__wrapAvatar">
+                              <div class="m-blockList__item__wrapAvatar__img">
+                                  <!-- ngIf: item.FotoPequena --><img class="m-blockList__item__photo ng-scope" ng-if="item.FotoPequena" ng-src="https://meucondominiohomologdata.s3.amazonaws.com/67/fotoperfil/5ba8fe44-1399-452b-8160-82f9a29ec94a.jpg" src="https://meucondominiohomologdata.s3.amazonaws.com/67/fotoperfil/5ba8fe44-1399-452b-8160-82f9a29ec94a.jpg"><!-- end ngIf: item.FotoPequena -->
+                                  <!-- ngIf: !item.FotoPequena -->
+                              </div>
+                              <div class="m-blockList__item__wrapAvatar__info">
+                                  <div class="m-blockList__item__info__author ng-binding">Luiza Silva Oliveira postou</div>
+                                  <h1 class="m-blockList__item__title--ellipsis ng-binding">
+                                      Tenham um bom dia!
+                                  </h1>
+                              </div>
+                          </div>
+                          <!-- ngIf: item.Imagens.length --><div class="m-blockList__item__preview ng-scope" ng-if="item.Imagens.length">
+                              <!-- ngRepeat: foto in item.Imagens | limitTo:3 --><div aria-role="foto" class="m-blockList__item__preview__image ng-scope" ng-repeat="foto in item.Imagens | limitTo:3" style="background-image: url('https://meucondominiohomologdata.s3.amazonaws.com/67/mural/17e674fd-43da-41e7-82e8-2d00f2f5a221.jpg')"></div><!-- end ngRepeat: foto in item.Imagens | limitTo:3 -->
+                          </div><!-- end ngIf: item.Imagens.length -->
+                      </a>
+                  </section><!-- end ngRepeat: item in content.data | limitTo : limit -->
+      
+                  <!-- ngIf: content.done --><section class="m-blockList__divider--solo ng-scope" ng-if="content.done">
+                      <div class="m-blockList__buttonContainer">
+                          <a class="m-button--md" href="/site-modelo/Mural/Adicionar">Adicionar tópico</a>
+                      </div>
+                  </section><!-- end ngIf: content.done -->
+              </div>
+          </article>
+      
+          <footer class="m-cardA__approval s-paddingReset">
+              <a class="m-cardA__approval__link" href="/site-modelo/Mural">
+                  <svg class="m-cardA__approval__link__icon">
+                      <use xlink:href="#m-icon__eye"></use>
+                  </svg>
+                  <span class="m-cardA__approval__link__text">ver todos os tópicos</span>
+              </a>
+          </footer>
+      </article>
+      
+                              </div>
 
 
     <!-- Button trigger modal -->
@@ -90,6 +209,11 @@
   src="https://code.jquery.com/jquery-3.4.1.min.js"
   integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
   crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+    
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
 </body>
 </html>

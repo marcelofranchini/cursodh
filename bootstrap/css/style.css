@@ -14,3 +14,194 @@ button.btn.btn-primary{
     background-color: teal;
     border-color: white;
 }
+
+
+.l-homeCards .l-homeCards__atalhos, .l-homeCards .l-homeCards__tarefas, .l-homeCards .l-homeCards__comunicado, .l-homeCards .l-homeCards__mural, .l-homeCards .l-homeCards__enquetes, .l-homeCards .l-homeCards__condominos, .l-homeCards .l-homeCards__album, .l-homeCards .l-homeCards__administracao {
+    margin-bottom: 30px;
+}
+
+.l-gridFlex--gapMD>.l-gridFlex__colXS, .l-gridFlex--gapMD>.l-gridFlex__colXS-1, .l-gridFlex--gapMD>.l-gridFlex__colXS-2, .l-gridFlex--gapMD>.l-gridFlex__colXS-3, .l-gridFlex--gapMD>.l-gridFlex__colXS-4, .l-gridFlex--gapMD>.l-gridFlex__colXS-5, .l-gridFlex--gapMD>.l-gridFlex__colXS-6, .l-gridFlex--gapMD>.l-gridFlex__colXS-7, .l-gridFlex--gapMD>.l-gridFlex__colXS-8, .l-gridFlex--gapMD>.l-gridFlex__colXS-9, .l-gridFlex--gapMD>.l-gridFlex__colXS-10, .l-gridFlex--gapMD>.l-gridFlex__colXS-11, .l-gridFlex--gapMD>.l-gridFlex__colXS-12, .l-gridFlex--gapMD>.l-gridFlex__colXSl, .l-gridFlex--gapMD>.l-gridFlex__colXSl-1, .l-gridFlex--gapMD>.l-gridFlex__colXSl-2, .l-gridFlex--gapMD>.l-gridFlex__colXSl-3, .l-gridFlex--gapMD>.l-gridFlex__colXSl-4, .l-gridFlex--gapMD>.l-gridFlex__colXSl-5, .l-gridFlex--gapMD>.l-gridFlex__colXSl-6, .l-gridFlex--gapMD>.l-gridFlex__colXSl-7, .l-gridFlex--gapMD>.l-gridFlex__colXSl-8, .l-gridFlex--gapMD>.l-gridFlex__colXSl-9, .l-gridFlex--gapMD>.l-gridFlex__colXSl-10, .l-gridFlex--gapMD>.l-gridFlex__colXSl-11, .l-gridFlex--gapMD>.l-gridFlex__colXSl-12, .l-gridFlex--gapMD>.l-gridFlex__colSM, .l-gridFlex--gapMD>.l-gridFlex__colSM-1, .l-gridFlex--gapMD>.l-gridFlex__colSM-2, .l-gridFlex--gapMD>.l-gridFlex__colSM-3, .l-gridFlex--gapMD>.l-gridFlex__colSM-4, .l-gridFlex--gapMD>.l-gridFlex__colSM-5, .l-gridFlex--gapMD>.l-gridFlex__colSM-6, .l-gridFlex--gapMD>.l-gridFlex__colSM-7, .l-gridFlex--gapMD>.l-gridFlex__colSM-8, .l-gridFlex--gapMD>.l-gridFlex__colSM-9, .l-gridFlex--gapMD>.l-gridFlex__colSM-10, .l-gridFlex--gapMD>.l-gridFlex__colSM-11, .l-gridFlex--gapMD>.l-gridFlex__colSM-12, .l-gridFlex--gapMD>.l-gridFlex__colMD, .l-gridFlex--gapMD>.l-gridFlex__colMD-1, .l-gridFlex--gapMD>.l-gridFlex__colMD-2, .l-gridFlex--gapMD>.l-gridFlex__colMD-3, .l-gridFlex--gapMD>.l-gridFlex__colMD-4, .l-gridFlex--gapMD>.l-gridFlex__colMD-5, .l-gridFlex--gapMD>.l-gridFlex__colMD-6, .l-gridFlex--gapMD>.l-gridFlex__colMD-7, .l-gridFlex--gapMD>.l-gridFlex__colMD-8, .l-gridFlex--gapMD>.l-gridFlex__colMD-9, .l-gridFlex--gapMD>.l-gridFlex__colMD-10, .l-gridFlex--gapMD>.l-gridFlex__colMD-11, .l-gridFlex--gapMD>.l-gridFlex__colMD-12, .l-gridFlex--gapMD>.l-gridFlex__colLG, .l-gridFlex--gapMD>.l-gridFlex__colLG-1, .l-gridFlex--gapMD>.l-gridFlex__colLG-2, .l-gridFlex--gapMD>.l-gridFlex__colLG-3, .l-gridFlex--gapMD>.l-gridFlex__colLG-4, .l-gridFlex--gapMD>.l-gridFlex__colLG-5, .l-gridFlex--gapMD>.l-gridFlex__colLG-6, .l-gridFlex--gapMD>.l-gridFlex__colLG-7, .l-gridFlex--gapMD>.l-gridFlex__colLG-8, .l-gridFlex--gapMD>.l-gridFlex__colLG-9, .l-gridFlex--gapMD>.l-gridFlex__colLG-10, .l-gridFlex--gapMD>.l-gridFlex__colLG-11, .l-gridFlex--gapMD>.l-gridFlex__colLG-12 {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.l-homeCards__mural {
+    -webkit-box-ordinal-group: 5;
+    -moz-box-ordinal-group: 5;
+    -ms-flex-order: 4;
+    -webkit-order: 4;
+    order: 4;
+}
+@media only screen and (min-width: 1024px)
+.l-gridFlex__colMD-4 {
+    -ms-flex-preferred-size: 33.333%;
+    -webkit-flex-basis: 33.333%;
+    flex-basis: 33.333%;
+    max-width: 33.333%;
+}
+@media only screen and (min-width: 768px)
+.l-gridFlex__colSM-6 {
+    -ms-flex-preferred-size: 50%;
+    -webkit-flex-basis: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+}
+.l-gridFlex__colXS-12 {
+    -ms-flex-preferred-size: 100%;
+    -webkit-flex-basis: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+}
+.l-gridFlex__colXS, .l-gridFlex__colXS-1, .l-gridFlex__colXS-2, .l-gridFlex__colXS-3, .l-gridFlex__colXS-4, .l-gridFlex__colXS-5, .l-gridFlex__colXS-6, .l-gridFlex__colXS-7, .l-gridFlex__colXS-8, .l-gridFlex__colXS-9, .l-gridFlex__colXS-10, .l-gridFlex__colXS-11, .l-gridFlex__colXS-12 {
+    padding-right: 7px;
+    padding-left: 7px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    -webkit-order: 0;
+    order: 0;
+    -webkit-box-flex: auto;
+    -moz-box-flex: auto;
+    -webkit-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    -ms-flex-item-align: 0;
+    -webkit-align-self: 0;
+    -ms-flex-item-align: 0;
+    align-self: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -moz-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -ms-flex-line-pack: distribute;
+    -ms-align-content: stretch;
+    -webkit-align-content: stretch;
+    align-content: stretch;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    font-size: 16px;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-weight: 400;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+.l-gridFlex, .l-gridFlex--gapSM, .l-gridFlex--gapMD, .l-gridFlex--gapNULL {
+    margin-right: -7px;
+    margin-left: -7px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-ordinal-group: 1;
+    -moz-box-ordinal-group: 1;
+    -ms-flex-order: 0;
+    -webkit-order: 0;
+    order: 0;
+    -webkit-box-flex: auto;
+    -moz-box-flex: auto;
+    -webkit-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    -ms-flex-item-align: 1;
+    -webkit-align-self: 1;
+    -ms-flex-item-align: 1;
+    align-self: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -moz-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -ms-flex-line-pack: distribute;
+}
+.l-body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-line-pack: distribute;
+    min-height: 100vh;
+}
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: #333;
+    background-color: #fff;
+}
+html {
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+user agent stylesheet
+html {
+    color: -internal-root-color;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+*:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
